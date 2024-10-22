@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE | gcc -c fichier.c -o fichier.o
+CFILE=$CFILE | gcc -c "$CFILE" -o "main.c"
