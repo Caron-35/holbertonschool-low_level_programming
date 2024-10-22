@@ -1,12 +1,14 @@
 #include <stdio.h>
+
 /**
-* main - Entry of the program
-*
-* printf: fonction pour ecrire le programme
-* return: toujours 0
-*/
+ * main - Entry point of the program
+ *
+ * Description: This program prints a sentence with proper grammar.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+return 0;
 }
