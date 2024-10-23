@@ -10,7 +10,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* Determine si n est superieur, egal ou inferieur a 0 */
-If(n > 0)
+if(n > 0)
 {
 printf("%d is positive\n", n);
 }
