@@ -2,7 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Entry of the program */
+/**
+ * main - Generates a random number and determines if it is positive,
+ *        negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
