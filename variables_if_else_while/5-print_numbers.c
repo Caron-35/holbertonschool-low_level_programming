@@ -9,7 +9,7 @@ int main(void)
 unsigned int x = 0;
 while (x < 10)
 {
-printf("%u\n", x);
+printf("%u", x);
 x++;
 }
 return (0);
