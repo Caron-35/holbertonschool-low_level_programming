@@ -12,5 +12,6 @@ while (x < 10)
 printf("%u", x);
 x++;
 }
+printf("\n");
 return (0);
 }
