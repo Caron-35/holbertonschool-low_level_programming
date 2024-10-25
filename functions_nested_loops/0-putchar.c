@@ -3,7 +3,6 @@
 
 int main(void)
 {
-  int _putchar(charc);
-printf("_putchar\n");
+_putchar("c\n");
 return (0);
 }
