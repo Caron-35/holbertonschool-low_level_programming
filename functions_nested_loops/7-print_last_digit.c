@@ -1,5 +1,9 @@
 #include "main.h"
-/***/
+/**
+ * print_last_digit - print the last digit
+ * @r: lalala
+ * Return: the value of the last digit
+ */
 int print_last_digit(int r)
 {
 int a = r % 10;
