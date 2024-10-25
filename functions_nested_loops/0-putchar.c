@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 int main(void)
 {
-_putchar("c\n");
+_putchar('C');
+_putchar('\n');
 return (0);
 }
