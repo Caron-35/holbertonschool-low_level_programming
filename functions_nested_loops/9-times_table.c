@@ -12,13 +12,14 @@ if (j == 0)
 {
 _putchar(f + '0');
 }
-else{
+else
+{
 _putchar(',');
 _putchar(' ');
 if (f < 10)
 {
-_putchar(',');
 _putchar(' ');
+_putchar(f + '0');
 }
 else
 {
