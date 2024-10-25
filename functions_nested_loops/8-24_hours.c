@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - program d'une journee
- * @h: heure
- * @m: minute
  * No return
  */
 void jack_bauer(void)
