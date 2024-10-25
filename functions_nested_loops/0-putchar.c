@@ -1,8 +1,16 @@
 #include "main.h"
-
+#include <string.h>
+/**
+ * main - Generate a program that print _putchar
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
-_putchar('C');
-_putchar('\n');
-return (0);
+	char *str = "_putchar\n";
+	int i;
+
+	for (i = 0; i != strlen(str); i++)
+		_putchar(str[i]);
+	return (0);
 }
