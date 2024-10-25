@@ -2,7 +2,7 @@
 /***/
 int print_last_digit(int r)
 {
-float a = r % 10;
+int a = r % 10;
 _putchar(a + '0');
-return a;
+ return write(1, &a, 1);
 }
