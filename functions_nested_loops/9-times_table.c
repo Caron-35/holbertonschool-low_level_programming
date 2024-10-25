@@ -1,5 +1,9 @@
 #include "main.h"
-/***/
+/**
+ * times_table - table of 9
+ *
+ * Void: rien
+ */
 void times_table(void)
 {
 int i, j;
