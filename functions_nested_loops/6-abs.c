@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _abs - Program the absolute number
- * @int: number variable
- * r : number
+ * @r: number variable
  * Return: always the absolute number
  */
 int _abs(int r)
