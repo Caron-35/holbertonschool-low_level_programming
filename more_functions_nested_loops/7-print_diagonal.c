@@ -14,7 +14,7 @@ else
 {
 for (i = 0; i < n; i++)
 {
-_putchar('47');
+_putchar('\\');
 _putchar('\n');
 }
 _putchar('\n');
