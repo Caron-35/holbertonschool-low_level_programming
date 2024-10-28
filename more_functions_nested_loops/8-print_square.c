@@ -6,9 +6,9 @@
 void print_square(int size)
 {
 int i, j;
-for (idx1 = 0; idx1 < size; i++)
+for (i = 0; i < size; i++)
 {
-for (idx2 = 0; idx2 < size; j++)
+for (j = 0; j < size; j++)
 {
 _putchar('#');
 }
