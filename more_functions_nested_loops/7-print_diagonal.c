@@ -22,6 +22,4 @@ _putchar(' ');
 _putchar('\\');
 _putchar('\n');
 }
-_putchar('\n');
-}
 }
