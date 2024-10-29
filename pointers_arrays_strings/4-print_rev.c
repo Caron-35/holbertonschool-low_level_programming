@@ -14,7 +14,7 @@ len++;
 return (len);
 }
 /**
- * print_rev: print a string in reverse
+ * print_rev - print a string in reverse
  * @s: string to pring in reverse
  */
 void print_rev(char *s)
