@@ -15,7 +15,7 @@ else
 ptr += (len / 2) + 1;
 }
 while (*ptr != '\0') {
-putchar(*ptr);
+_putchar(*ptr);
 ptr++;
 }
 _putchar('\n');
