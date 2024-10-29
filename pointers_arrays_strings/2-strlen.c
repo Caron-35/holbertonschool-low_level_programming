@@ -5,10 +5,10 @@
  */
 int _strlen(char *s)
 {
-s = 0;
-while (s != '\0')
+int len = 0;
+while (s[len] != '\0')
 {
-s++;
+len++;
 }
-return (s);
+return (len);
 }
