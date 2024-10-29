@@ -3,13 +3,11 @@
  * puts2 - Print every other character
  * @str: string
  */
-void puts2(char *str)
-{
+void puts2(char *str) {
 char *ptr = str;
-while (*ptr != '\0')
-{
+while (*ptr != '\0') {
 _putchar(*ptr);
-ptr += 2;
+_ptr += 2;
 }
 _putchar('\n');
 }
