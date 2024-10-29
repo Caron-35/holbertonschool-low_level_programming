@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * print_rev - Print a string in reverse
+ * _strlen - calculate the length of a string
+ * Return: the length
+ *
+ * print_rev: print a string in reverse
  * @s: string
  */
 int _strlen(char *s)
@@ -10,13 +13,13 @@ while (s[len] != '\0')
 {
 len++;
 }
-return len;
+ return (len);
 }
 void print_rev(char *s)
 {
 int i = 0;
 int len = _strlen(s);
-for (i = len - 1; i >=0; i--)
+for (i = len - 1; i >= 0; i--)
 {
 _putchar(s[i]);
 }
