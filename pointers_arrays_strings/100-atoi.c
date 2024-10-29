@@ -4,23 +4,23 @@ int _atoi(char *s)
 {
 int result = 0;
 int sign = 1;
-while (*str == ' ')
+while (*s == ' ')
 {
-str++;
+s++;
 }
-if (*str == '-')
+if (*s == '-')
 {
 sign = -1;
-str++;
+s++;
 }
-else if (*str == '+')
+else if (*s == '+')
 {
-str++;
+s++;
 }
-while (*str >= '0' && *str <= '9')
+while (*s >= '0' && *s <= '9')
 {
-result = result * 10 + (*str - '0');
-str++;
+result = result * 10 + (*s - '0');
+s++;
 }
 return (sign * result);
 }
