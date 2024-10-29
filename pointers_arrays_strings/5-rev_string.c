@@ -1,5 +1,8 @@
 #include "main.h"
-/***/
+/**
+ * rev_string - Reverse a string
+ * @s: string
+ */
 void rev_string(char *s)
 {
 int len = 0;
