@@ -1,5 +1,9 @@
 #include "main.h"
-/***/
+/**
+ * _atoi - Generates the function atoi
+ * @s: string
+ * Return: sign * result
+ */
 int _atoi(char *s)
 {
 int result = 0;
