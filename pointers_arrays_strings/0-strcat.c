@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * _strcat - concatenates 2 strings
+ * @dest: destination
+ * @src: source
  * Description - premiere boucle while
  * (deplace ptr a la fin de dest)
  * 2eme boucle while (ajoute src a dest)
