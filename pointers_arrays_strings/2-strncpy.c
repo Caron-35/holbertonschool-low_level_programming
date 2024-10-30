@@ -13,7 +13,7 @@ while (n-- && *src)
 {
 *temp++ = *src++;
 }
-while (n-- > 0)
+while (n-- >= 0)
 {
 *temp++ = '\0';
 }
