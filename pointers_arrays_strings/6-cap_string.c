@@ -4,7 +4,8 @@
  * @str: string
  * Return: string in cap
  */
-char *cap_string(char *str) {
+char *cap_string(char *str)
+{
 char *ptr = str;
 int new_word = 1;
 while (*ptr)
